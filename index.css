@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+* {
+  scroll-behavior: smooth;
+}
+
+/* nav section */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #002853, #040c18);
+  background-repeat: no-repeat;
+  background-position: absolute;
+}
+.container_pd_nav {
+  padding: 15px 5rem;
+}
+.container_pd {
+  padding: 45px 5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.navlist_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+.navlist_logo .GPT-3 img {
+  width: 3rem;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  list-style: none;
+}
+nav ul .navlist li a {
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+button {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  background: none;
+  border: none;
+  justify-content: space-between;
+}
+button span {
+  background-color: #ff4820;
+  display: block;
+  border-radius: 4px;
+  padding: 10px;
+  width: 80px;
+  height: 20px;
+}
+.hero_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: max-content;
+}
+.hero_section h1 {
+  font-size: 3rem;
+  margin-top: -45px;
+  background: linear-gradient(to right, #ae67fa, #f49867);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.hero_img img {
+  width: 650px;
+  height: 650px;
+  margin-top: -35px;
+}
+.hero_section p {
+  color: #81afdd;
+  font-family: "Manrope", sans-serif;
+  font-weight: 200;
+  line-height: 1.5rem;
+}
+.hero_form_review .hero_form{
+  display: flex;
+}
+.hero_form input{
+  flex: 1;
+  opacity: 10%;
+  height: 30px;
+}
+.hero_form_reviews .hero_form button{
+  background-color: #ff4820;
+  width: 100px;
+}
+.review_img_details {
+  display: flex;
+  margin-top: 20px;
+  gap: 0.6rem;
+}
+.review_img_details img {
+  width: 120px;
+}
+.review_img_details span {
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-top: 6px;
+}
+.sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.sponsors img{
+  width: 100px;
+}
