@@ -142,8 +142,8 @@ form {
 .gpt3_possibilities {
   padding: 6rem;
   margin: 6rem;
-  background-color: #0F4279;
-  background-color: radial-gradient(#0F4279 90%, #1B78DE);
+  background-color: #0f4279;
+  background-color: radial-gradient(#0f4279 90%, #1b78de);
 }
 .gpt3_possibilities_what_is {
   display: flex;
@@ -152,11 +152,11 @@ form {
   margin-bottom: 4rem;
   margin-top: -2rem;
 }
-.gpt3_possibilities_what_is h3{
+.gpt3_possibilities_what_is h3 {
   color: #ffffff;
 }
-.what_is_gpt3_details{
-  color: #81AFDD;
+.what_is_gpt3_details {
+  color: #81afdd;
   font-weight: 500;
   line-height: 1.5rem;
 }
@@ -166,15 +166,15 @@ form {
   justify-content: space-between;
   margin-bottom: 4rem;
 }
-.gpt3_possibilities_CTA h2{
+.gpt3_possibilities_CTA h2 {
   width: 35%;
   font-weight: 800;
   background: linear-gradient(to right, #ae67fa, #f49867);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; 
+  -webkit-background-clip: text;
 }
-.gpt3_possibilities_CTA small{
- color: #FF8A71;
+.gpt3_possibilities_CTA small {
+  color: #ff8a71;
 }
 .gpt3_possibilities_boxes {
   display: flex;
@@ -187,19 +187,100 @@ form {
   width: 25px;
   margin-bottom: 0.9rem;
 }
-.gpt3_possibilities_boxes h3{
-  color: #FFFFFF;
+.gpt3_possibilities_boxes h3 {
+  color: #ffffff;
   font-weight: 800;
 }
-.gpt3_possibilities_boxes p{
-  color: #81AFDD;
+.gpt3_possibilities_boxes p {
+  color: #81afdd;
   margin-top: 2rem;
 }
 /******the_future*****/
-.the_future{
+.future {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
 }
-.the_future .the_future_list{
+.future_CTA h3 {
+  width: 370px;
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 2rem;
+  font-style: normal;
+  background: linear-gradient(to right, #ae67fa, #f49867);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 1.5rem;
+}
+.future_CTA small {
+  color: #ff8a71;
+}
+.future_flex {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.future_flex_list .list_heading {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 6rem;
+}
+.future_flex_list .line {
+  height: 2px;
+  background: linear-gradient(to right, #ae67fa, #f49867);
+  width: 25px;
+}
+.future_flex_list .list_heading h4 {
+  color: #ffffff;
+  line-height: 24px;
+  width: 140px;
+  margin-bottom: 2rem;
+}
+.future_flex_list .list_heading p {
+  color: #81afdd;
+  width: 370px;
+  margin-bottom: 2rem;
+  align-items: start;
+}
+.my_apps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.my_apps .app_image img {
+  width: 500px;
+  height: 500px;
+}
+.my_apps_details{
+  line-height: 2rem;
+  margin-top: 8rem;
+}
+.my_apps_details p{
+  color: rgba(113, 229, 255, 1);
+  font-size: 0.7rem;
+}
+.my_apps_details h4{
+  width:350px;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #ae67fa, #f49867);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.my_apps_details small{
+  color: rgba(129, 175, 221, 1);
+  display: block;
+  width: 390px;
+  line-height: 1.6rem;
+  margin-top: 1.4rem;
+}
+.my_apps_details span{
+  color: rgba(255, 138, 113, 1);
+  font-size: 0.7rem;
 }
