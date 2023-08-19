@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* UC */
+/******************UC_button********************/
 .btn {
   width: 112px;
   height: 38px;
@@ -23,7 +23,7 @@ html {
 .btn.secondary {
   background-color: transparent;
 }
-/* nav section */
+/****************nav section********************/
 body {
   margin: 0;
   padding: 0;
@@ -68,7 +68,7 @@ nav ul .navlist li a {
   text-decoration: none;
   font-size: 0.6rem;
 }
-/******Hero Section******/
+/******************Hero Section******************/
 .hero_section {
   display: flex;
   align-items: center;
@@ -92,6 +92,7 @@ nav ul .navlist li a {
   font-family: "Manrope", sans-serif;
   font-weight: 200;
   line-height: 1.5rem;
+  margin-top: 0.7rem;
 }
 form {
   display: flex;
@@ -105,9 +106,11 @@ form {
 }
 .hero_form_reviews .hero_form button {
   background-color: #ff4820;
+  border: none;
+  border-radius: 2px;
   width: 100px;
-  height: 34px;
-  margin-top: 1px;
+  height: 29px;
+  margin-top: 0.5px;
 }
 .review_img_details {
   display: flex;
@@ -124,7 +127,7 @@ form {
   font-weight: 200;
   margin-top: 6px;
 }
-/******sponsors*****/
+/**********************sponsors*************************/
 .sponsors {
   display: flex;
   align-items: center;
@@ -134,7 +137,7 @@ form {
 .sponsors img {
   width: 100px;
 }
-/*****.gpt3_possibilities*****/
+/*****************gpt3_possibilities*******************/
 .gpt3_possibilities_container {
   margin-top: 4rem;
   font-family: inherit;
@@ -168,7 +171,7 @@ form {
 }
 .gpt3_possibilities_CTA h2 {
   width: 35%;
-  font-weight: 800;
+  font-weight: 700;
   background: linear-gradient(to right, #ae67fa, #f49867);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -189,19 +192,22 @@ form {
 }
 .gpt3_possibilities_boxes h3 {
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 700;
 }
 .gpt3_possibilities_boxes p {
   color: #81afdd;
   margin-top: 2rem;
 }
-/******the_future*****/
+/***********************future*************************/
 .future {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 6rem;
+}
+.future_CTA{
+  margin-bottom: 6rem;
 }
 .future_CTA h3 {
   width: 370px;
@@ -246,6 +252,7 @@ form {
   margin-bottom: 2rem;
   align-items: start;
 }
+/********************My apps********************/
 .my_apps {
   display: flex;
   align-items: center;
@@ -283,4 +290,101 @@ form {
 .my_apps_details span{
   color: rgba(255, 138, 113, 1);
   font-size: 0.7rem;
+}
+/***************request********************/
+.request{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ae67fa, #f49867);
+  border: none;
+  border-radius: 5px;
+  padding: 3rem;
+  margin: 6rem;
+  font-family: inherit;
+}
+.request_details p{
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+.btnn{
+  color: #ffffff;
+  background-color: black;
+  width: 150px;
+  padding: 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+/*********grid**********/
+.grid_details {
+  background: linear-gradient(to right, #ae67fa, #f49867);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: inherit;
+  font-size: 2.3rem;
+  font-weight: 600;
+  width: 500px;
+  margin-bottom: 1rem;
+}
+.grid_img img{
+
+  width:20%;
+}
+/***************/
+.footer{
+  padding: 5rem;
+  background-color: #0f4279;
+}
+.footer_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_details h3{
+  background: linear-gradient(to right, #ae67fa, #f49867);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.footer_btn button{
+  border: 1px solid#ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 8px;
+  margin-bottom: 5rem;
+}
+.footer_copyright_lists{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-right: 9rem;
+  gap: 12rem;
+}
+.footer_copyright p{
+color: #ffffff;
+font-family: inherit;
+font-size: 0.8rem;
+margin-top: 3px;
+}
+.footer_lists{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 9rem;
+  color: #ffffff;
+}
+.footer_lists h4{
+  margin-bottom: 1rem;
+}
+.footer_lists li{
+ font-size: 0.8rem;
+ line-height: 1.5rem;
 }
