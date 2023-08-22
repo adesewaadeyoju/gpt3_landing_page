@@ -206,7 +206,7 @@ form {
   justify-content: space-between;
   gap: 6rem;
 }
-.future_CTA{
+.future_CTA {
   margin-bottom: 6rem;
 }
 .future_CTA h3 {
@@ -263,16 +263,16 @@ form {
   width: 500px;
   height: 500px;
 }
-.my_apps_details{
+.my_apps_details {
   line-height: 2rem;
   margin-top: 8rem;
 }
-.my_apps_details p{
+.my_apps_details p {
   color: rgba(113, 229, 255, 1);
   font-size: 0.7rem;
 }
-.my_apps_details h4{
-  width:350px;
+.my_apps_details h4 {
+  width: 350px;
   font-size: 2rem;
   line-height: 2.5rem;
   margin-bottom: 1rem;
@@ -280,19 +280,19 @@ form {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-.my_apps_details small{
+.my_apps_details small {
   color: rgba(129, 175, 221, 1);
   display: block;
   width: 390px;
   line-height: 1.6rem;
   margin-top: 1.4rem;
 }
-.my_apps_details span{
+.my_apps_details span {
   color: rgba(255, 138, 113, 1);
   font-size: 0.7rem;
 }
 /***************request********************/
-.request{
+.request {
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -303,12 +303,12 @@ form {
   margin: 6rem;
   font-family: inherit;
 }
-.request_details p{
+.request_details p {
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 2rem;
 }
-.btnn{
+.btnn {
   color: #ffffff;
   background-color: black;
   width: 150px;
@@ -318,31 +318,41 @@ form {
   text-align: center;
 }
 /*********grid**********/
-.grid_details {
+.grid_details h3{
   background: linear-gradient(to right, #ae67fa, #f49867);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: inherit;
-  font-size: 2.3rem;
-  font-weight: 600;
-  width: 500px;
+  font-size: 3rem;
+  font-weight: 800;
+  width: 900px;
+  height: 200px;
   margin-bottom: 1rem;
 }
-.grid_img img{
-
-  width:20%;
+.grid_box{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  grid-gap: 2em;
+}
+.grid_box .box1{
+  grid-row: 1/3;
+}
+.grid_box img {
+  width: 100%;
+  height: 100%;
 }
 /***************/
-.footer{
+.footer {
   padding: 5rem;
-  background-color: #0f4279;
+  background-color: rgba(3, 27, 52, 1);
 }
-.footer_btn{
+.footer_btn {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "gilroy" , sans-serif;
 }
-.footer_details h3{
+.footer_details h3 {
   background: linear-gradient(to right, #ae67fa, #f49867);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -354,37 +364,47 @@ form {
   justify-content: center;
   margin-bottom: 2rem;
 }
-.footer_btn button{
+.footer_btn button {
   border: 1px solid#ffffff;
   background-color: transparent;
   color: #ffffff;
   padding: 8px;
   margin-bottom: 5rem;
 }
-.footer_copyright_lists{
+.footer_copyright_lists {
   display: flex;
   align-items: start;
   justify-content: center;
+  font-family: "gilroy" , sans-serif;
   margin-right: 9rem;
   gap: 12rem;
 }
-.footer_copyright p{
-color: #ffffff;
-font-family: inherit;
-font-size: 0.8rem;
-margin-top: 3px;
+.footer_copyright p {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 0.8rem;
+  margin-top: 3px;
 }
-.footer_lists{
+.footer_lists {
   display: flex;
   align-items: start;
   justify-content: space-between;
   gap: 9rem;
   color: #ffffff;
 }
-.footer_lists h4{
+.footer_lists h4 {
+  font-size: 0.9rem;
   margin-bottom: 1rem;
 }
-.footer_lists li{
- font-size: 0.8rem;
- line-height: 1.5rem;
+.footer_lists li {
+  list-style: none;
+  font-size: 0.7rem;
+  line-height: 1.6rem;
+}
+.footer_copy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 4rem;
 }
