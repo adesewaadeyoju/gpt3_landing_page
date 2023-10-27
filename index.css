@@ -17,8 +17,9 @@ html {
   font-weight: 600;
   color: #f3f3f3;
   border: none;
+  margin-top: 30px;
   border-radius: 3px;
-  margin-left: 5px;
+  margin-left: 50px;
 }
 .btn.secondary {
   background-color: transparent;
@@ -35,7 +36,7 @@ body {
   font-family: "Manrope", sans-serif;
 }
 .container_pd_nav {
-  padding: 15px 5rem;
+  padding: 15px 6rem;
 }
 .container_pd {
   padding: 45px 5rem;
@@ -407,4 +408,18 @@ form {
   justify-content: center;
   color: #ffffff;
   margin-top: 4rem;
+}
+
+/*****/
+@media (max-width: 768px){
+  body{
+    background: cover;
+  }
+  .gpt3_possibilities_boxes{
+    gap: 4rem;
+  }
+  .btnn{
+    width: 200px;
+    margin-top: 20px;
+  }
 }
